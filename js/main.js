@@ -212,9 +212,6 @@ function btnDecrementar(cantidadActual, id) {
 }
 
 
-
-
-
 // Mostrar la lista inicial
 mostrarCarrito();
 
