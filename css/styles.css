@@ -1,0 +1,232 @@
+*{
+margin: 0px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header{
+    background-image:url(../images/home-header-bg.jpg) ;
+    margin: 0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.logo img{
+    width: 15vh;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-principal {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;   
+} 
+
+.navbar{
+    width: 100%;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    margin-right: 20px;
+}
+
+.navmenu{
+    margin-left:80px;
+    list-style-type: none;
+}
+a{
+    color: darkgreen;
+    font-size: 24px;
+    text-decoration: none;
+   
+}
+
+a:hover {
+    transform: scale(1.2);
+    font-size: 24px;
+}
+
+.titulo {
+    color: rgb(14, 129, 14);
+    text-shadow:1px 1px white;
+    font-size: 40px;
+    width: 100%;
+    align-items: center !important;
+    justify-content: initial !important;
+    display: flex !important;
+}
+
+
+
+a:hover{
+    transform: scale(1.2);
+    font-size: 24px;
+    
+}
+
+anuncio-principal{
+    margin-top: 70px;
+   
+     
+}
+
+.anuncio-title {
+    margin-top: 100px;
+    margin-left: 20px;
+    color:goldenrod;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.anuncio-text{
+    margin-left: 30px;
+    color:goldenrod;
+    text-shadow: 2px 2px black;
+    font-size: 35px;
+}
+
+.section-nosotros{
+    background-image: url(../images/cervezas.png);
+    margin: 0%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.section-productos{
+    background-image: url(../images/ingredientes_de_la_cerveza.jpg);
+    margin: 0%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px; 
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila */
+    justify-content: space-around; /* Alinea las tarjetas en el centro del contenedor */
+  }
+
+h5{
+    text-align: justify;
+    width: inherit;
+
+}
+
+.card{
+    background-color: beige;
+    box-shadow: 30%;
+    opacity: 80%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem
+    
+}
+
+
+
+#carrito-lista {
+    display: block;
+    width: fit-content;
+    background-color: azure;
+    border-radius: 10px;
+    float: inline-end;
+}
+
+#carrito-lista li{
+    flex-direction: column;
+}
+
+.carrito-menu{
+    width: 20px;
+    height: 20px;
+}
+
+/*Carrito Lateral*/
+
+.carrito-menu {
+    position: fixed;
+    top: 60px;
+    right: -500px; /* Inicialmente oculto fuera del área visible */
+    width: 300px;
+    height: 80%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+  }
+  
+
+  
+  .carrito-lista ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .carrito-lista li {
+    margin-bottom: 10px;
+  }
+
+  
+  #img-carrito{
+    width: 35px;
+    height: 35px;
+  }
+
+
+  #carrito-menu {
+
+    display: none; /* Por defecto, oculta el menú al cargar la página */
+    position: fixed; /* Mantiene el menú en su posición incluso cuando se desplaza la página */
+    top: 80px;
+    right: 0;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000; /* Asegura que el menú esté en la parte superior de otros elementos */
+    background-color:whitesmoke;
+    border-radius: 10px;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+
+  #finalizar-compra-btn{
+    min-width: -webkit-fill-available;
+  }
+
+  #limpiar-carrito-btn{
+    min-width: -webkit-fill-available;
+  }
+
+
+  .btn-group{
+    margin-left: 80px;
+  }
+
+  
+  
+
+
+
+  
